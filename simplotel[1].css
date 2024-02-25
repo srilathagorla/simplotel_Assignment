@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+}
+
+.nav-container {
+    background-color: #f57f62;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+}
+
+.menu-img {
+    height: 30px;
+    width: 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.un-order-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+.list-content {
+    font-family: 'Serif';
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+.burger-container {
+    background-image: linear-gradient(to right, #e3f59d, #fc9dcc);
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 50vw;
+
+}
+
+.burger-img {
+    height: 100vh;
+    width: 50vw;
+}
+
+.heading {
+    font-family: "Roboto";
+    letter-spacing: 3px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.description {
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.click-button {
+    background-color: #f57f62;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.bottom-container {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom right, #e3f59d, #fc9dcc);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+.small-image {
+    height: 30vh;
+    width: 20vw;
+    margin-bottom: 5px;
+}
+
+.food-image {
+    height: 62vh;
+    width: 20vw;
+    margin-left: 15px;
+}
+
+.card-container {
+    background-color: #f57f62;
+    height: 40vh;
+    width: 30vw;
+    padding-left: 8px;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+}
+
+.caption {
+    font-size: 12px;
+}
